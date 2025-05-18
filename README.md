@@ -117,14 +117,7 @@ Steps:
           !cat train_model.py
           # OP: Your model training code here
           #        print("Training model...")
-
-
-from google.colab import files
-files.download('train_model.py')
-# Download the file
-
-✅ Final Report with insights & performance
-
-✅ Flask API (optional)
-
-✅ README and documentation
+          
+          # Download the file
+          from google.colab import files
+          files.download('train_model.py')
